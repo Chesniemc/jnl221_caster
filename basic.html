@@ -12,10 +12,11 @@
             .book {color: dark gray;
                 font-size: 16px;
                 font-family: 'Open Sans', serif;
+                border: 1px dotted black ;
                 width: 50%}
 
             p {
-                color: #A9A9A9;
+                color: #5A5A5A;
                 font-size: 16px;
                 font-family: 'Open Sans', serif;
                 width: 50%;
@@ -35,18 +36,19 @@
                 color: red;
             }
             #longest {
-                width: 300px;
+                width: 400px;
                 height: 10px;
                 background: gray;
                 border: 1px solid red;
-                order: chronological;
             }
             #longer {
+                width: 300px;
                 height: 10px;
                 background: gray;
                 border: 1px solid red;
             }
             #long {
+                width: 100px;
                 height: 10px;
                 background: gray;
                 border: 1px solid red;
@@ -60,22 +62,23 @@
         <h1>My name is Chesnie Caster</h1>
         
         <h2>My Intro</h2>
-            <p> <i><strong>I am from Reisterstown, Maryland. I am senior at Syracuse University studying Broadcast and Digital Journalism. For fun, I like to read, bake, and travel. My family is originally from Virginia and South Carolina.</strong></i></p>
+            <p> <i><strong>I am from Reisterstown, Maryland. I am 21 years old. I am senior at Syracuse University studying Broadcast and Digital Journalism. For fun, I like to read, bake, and travel. I am from a family of 5. My family is originally from Virginia and South Carolina.</strong></i></p>
         
         <h2>My handles</h2>
-            <p> @chesnie and @ccaster </p>
+            <p>I am on <a href="https://twitter.com/nytimes?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target= " _blank"> twitter </a> and <a href= "https://www.instagram.com/nytimes/" target="_blank"> instagram </a></p>
         <!-- Include: at least two handles for your social media accounts -->
         <!-- Tags to use: <p>, <a> -->
 
     
         <h2> ~ Challenge: Why is my text maroon? ~</h2>
+
         <!-- Challenge! The text in your p tags is currently maroon. Figure out why and make it dark gray, using a hex code. (Hint: use google to find a hex code for a dark gray) When you're done, change the text in the <p> tag below to "My text is gray." -->
         <p>My text is maroon.</p>
 
 
         <h2>My favorite meme</h2>
 
-            <img src="large_wink.png" alt="An image of a woman winking" height="300px" width="400px">
+            <img src="large_wink.png" alt="An image of a woman, Katherine Hahn, winking (interet meme)" height="300px" width="400px">
 
         <!-- Include: "large_wink.png" as an image -->
         <!-- Tags to use: <img> -->
@@ -83,19 +86,19 @@
 
     
         <h2>Why I'm a great student</h2>
-        <ul><strong>
+        <ul>
                 <li>I turn in assignments on time.</li>
                 <li>I pay attention in class.</li>
                 <li>I am an active listener.</li>
-                <li>I maintain a high GPA/good grades.</li>
-           </strong></ul>
+                <li><strong>I maintain a high GPA/good grades.</strong></li>
+           </ul>
         <!-- Include: Use 'reference_sheet.html' to figure out how to add an unordered list here -->
         <!-- Tags to use: <ul>, <li>, <strong> -->
         
     
         <h2>Top 3 most famous people from my hometown</h2>
         <ol><a>
-                <li>Michael Phelps</li>
+                <li><a href= "https://en.wikipedia.org/wiki/Michael_Phelps" target="_blank"> Michael Phelps </a></li>
                 <li>Jada Pinkett Smith</li>
                 <li>Babe Ruth</li>    
            </a></ol>
@@ -105,27 +108,25 @@
 
         <h2> ~ Challenge: Read my poetry ~</h2>
         <p>
-            Syracuse University has been rewarding <br />
-            Newhouse has taught me a lot<br />
-            Graduation is near<br />
+            Syracuse University has been rewarding<br>Newhouse has taught me a lot<br>Graduation is near<br>
         </p>
         <!-- Challenge! Use the internet to figure out what a <br> tag is. Write a short poem about your college experience so far. -->
         <!-- Tags to use: <p> tags for your lines of poetry, and at least two <br> tags -->
     
 
         <h2>This is one of my favorite quotes</h2>
-
+        <h3> Harry Potter </h3>
         <p id="quote">I solemnly swear I am up to no good</p>
-            <h3> Harry Potter
+            
         <!-- Include: a quote from a book -- quote should be in italics and gray, title of source should be in an <h3> tag -->
         <!-- Tags to use: <h3>, <p> with an id named 'quote' that is styled in the <style> section -->
 
 
         <h2>These are more of my favorite books</h2>
-        <ul class="book">
-                <li>The Hate U Give</li>
-                <li>Between The World And Me</li>
-                <li>Becoming</li>
+        <ul>
+                <li class="book">The Hate U Give</li>
+                <li class="book">Between The World And Me</li>
+                <li class="book">Becoming</li>
             </ul>
         <!-- Include: an unordered list of at least three books, list items should have a border -->
         <!-- Tags to use: <ul>, <li> with classes named 'book' that is styled in the <style> section -->
@@ -139,14 +140,14 @@
 
         <h3>~ Challenge: A very simple bar graph ~</h3>
         <!-- Challenge! Add CSS styles to '#longer' and '#long' to make the bar graph look like it's ordered from longest to shortest. You may also change the h4 text and the p text to make this simple bar chart reflect real (or fake) data. -->
-
+        <h4> How much sleep I get in the week
         <div id="bargraph">
             <h4>Length of bars</h4>
-            <p class="bar_label">Longest</p>
+            <p class="bar_label">Monday</p>
             <div id="longest"></div>
-            <p class="bar_label">Longer</p>
+            <p class="bar_label">Tuesday</p>
             <div id="longer"></div>
-            <p class="bar_label">Long</p>
+            <p class="bar_label">Friday</p>
             <div id="long"></div>
         </div>
      
